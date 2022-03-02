@@ -1,0 +1,33 @@
+.housing__div {
+  /* background: black; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/home/background-home-desktop.jpg");
+}
+.navs {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  width: 80%;
+}
+.nav__links {
+  display: flex;
+  padding-right: 8rem;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.logo {
+  width: 20%;
+  margin-left: 20px;
+  padding-top: 15px;
+}
