@@ -12,6 +12,14 @@ body {
   left: 20px;
   top: 40px; */
 }
+.anchors{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav__link:active{
+    border-bottom: 2px solid #ffffff;
+    /* background-color: aqua; */
+}
 .navs {
   color: white;
   display: flex;
@@ -54,9 +62,21 @@ body {
 .text__section {
   width: 50%;
   height: 20px;
+  padding-left: 20px;
 }
 .oval__section {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+}
+.img__sec {
+  /* align-items: flex-end; */
+  height: 274px;
+
+  width: 274px;
 }
 .so__text {
   font-family: "Barlow Condensed";
